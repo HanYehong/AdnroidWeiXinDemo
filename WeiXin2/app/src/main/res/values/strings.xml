@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">WeiXin</string>
+    <string name="top_string">微信</string>
+    <string name="bottom_home">微信</string>
+    <string name="bottom_friend">通讯录</string>
+    <string name="bottom_find">发现</string>
+    <string name="bottom_me">我</string>
+    <string name="wm_1">网友1</string>
+    <string name="wm_2">网友2</string>
+    <string name="wm_3">网友3</string>
+    <string name="wm_4">网友4</string>
+    <string name="title_activity_login">登录</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_id">用户名为20位以内以字母开头的字符串</string>
+    <string name="error_invalid_password">密码太短了！</string>
+    <string name="error_incorrect_password">密码不正确！</string>
+    <string name="error_field_required">用户名必填项</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+</resources>

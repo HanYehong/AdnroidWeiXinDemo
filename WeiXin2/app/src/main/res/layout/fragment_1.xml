@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeae8"
+    android:id="@+id/chatList"
+    tools:context=".Fragment_1">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#fff"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--style="@style/homeIcon"-->
+            <!--android:src="@drawable/touxiang_1" />-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/act1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--style="@style/homeText"-->
+                <!--android:text="@string/wm_1" />-->
+
+            <!--<TextView-->
+                <!--style="@style/homeText_little"-->
+                <!--android:text="[图片]" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+            <!--style="@style/homeText_time"-->
+            <!--android:text="17:02" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_height="1px"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#cccccc" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#fff"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--style="@style/homeIcon"-->
+            <!--android:src="@drawable/touxiang_2" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--style="@style/homeText"-->
+                <!--android:text="@string/wm_2" />-->
+
+            <!--<TextView-->
+                <!--style="@style/homeText_little"-->
+                <!--android:text="今天中午吃啥？" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+            <!--style="@style/homeText_time"-->
+            <!--android:text="11:32" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_height="1px"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#cccccc" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#fff"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--style="@style/homeIcon"-->
+            <!--android:src="@drawable/touxiang_3" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--style="@style/homeText"-->
+                <!--android:text="@string/wm_3" />-->
+
+            <!--<TextView-->
+                <!--style="@style/homeText_little"-->
+                <!--android:text="哈哈哈哈哈" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+            <!--style="@style/homeText_time"-->
+            <!--android:text="00:02" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_height="1px"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#cccccc" />-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#fff"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--style="@style/homeIcon"-->
+            <!--android:src="@drawable/touxiang_4" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--style="@style/homeText"-->
+                <!--android:text="@string/wm_4" />-->
+
+            <!--<TextView-->
+                <!--style="@style/homeText_little"-->
+                <!--android:text="明天再说" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<TextView-->
+            <!--style="@style/homeText_time"-->
+            <!--android:text="周一" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<View-->
+        <!--android:layout_height="1px"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#cccccc" />-->
+
+</LinearLayout>

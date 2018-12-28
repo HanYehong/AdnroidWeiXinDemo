@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_3"
+    android:background="#eeeae8"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff">
+        <ImageView
+            android:id="@+id/myImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/me"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorTextViewNormal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#fff">
+
+        <ImageView
+            android:src="@drawable/qianbao"
+            style="@style/meIcon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="钱包"
+            style="@style/meText"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff">
+
+            <ImageView
+                android:src="@drawable/shoucang"
+                style="@style/meIcon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收藏"
+                style="@style/meText"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff">
+
+            <ImageView
+                android:src="@drawable/xiangce"
+                style="@style/meIcon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="相册"
+                style="@style/meText"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:id="@+id/music"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff">
+
+            <ImageView
+                android:src="@drawable/yinyue"
+                style="@style/meIcon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="音乐"
+                style="@style/meText"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#cccccc" />
+
+        <LinearLayout
+            android:id="@+id/loading_anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff">
+
+            <ImageView
+                android:src="@drawable/biaoqing"
+                style="@style/meIcon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动画"
+                style="@style/meText"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#fff">
+
+        <ImageView
+            android:src="@drawable/shezhi"
+            style="@style/meIcon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            style="@style/meText"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/phoneList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/addContact"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="520dp"
+            android:background="@drawable/add" />
+
+
+</RelativeLayout>

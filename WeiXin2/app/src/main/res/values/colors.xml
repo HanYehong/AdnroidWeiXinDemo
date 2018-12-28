@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="weixin">#303030</color>
+    <color name="fontcolor">#fff</color>
+    <color name="colorTextViewNormal">#7F7F7F</color>
+    <color name="colorTextViewPress">#1B940A</color>
+    <color name="littleGravy">#cccccc</color>
+    <color name="beijing">#eeeae8</color>
+</resources>

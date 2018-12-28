@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/weixin">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:text="微信"
+        android:textSize="23dp"
+        android:textColor="#fff" />
+
+    <ImageButton
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sousuo"
+        android:background="#00000000"></ImageButton>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tianjia"
+        android:background="#00000000"></ImageButton>
+
+</LinearLayout>
